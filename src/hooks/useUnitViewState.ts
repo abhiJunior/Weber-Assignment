@@ -14,6 +14,7 @@ function encodeB64url(v: unknown): string {
     .replace(/=/g, '');
 }
 
+
 function decodeB64url(s: string): unknown {
   return JSON.parse(atob(s.replace(/-/g, '+').replace(/_/g, '/')));
 }

@@ -1,3 +1,4 @@
+
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import type { Patient } from '../types';
 import { useBedStore } from '../store/bedSlice';

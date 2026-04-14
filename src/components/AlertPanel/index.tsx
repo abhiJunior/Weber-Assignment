@@ -93,6 +93,7 @@ function AlertRow({ alert, isPending, currentTime, onAck }: AlertRowProps) {
   );
 }
 
+
 // ─── AlertPanel ───────────────────────────────────────────────────────────────
 interface AlertPanelProps {
   unitId: string;

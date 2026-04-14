@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import type { Alert } from '../types';
 
+
 const BASE = 'http://localhost:3001/api/v1';
 
 export function useAlerts(unitId: string | null) {

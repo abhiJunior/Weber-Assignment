@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import type { CensusStats } from '../types';
 
+
 const BASE = 'http://localhost:3001/api/v1';
 
 export function useCensus(unitId: string | null) {
